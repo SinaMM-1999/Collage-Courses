@@ -1,0 +1,20 @@
+@import '-contact.css';
+@import '-navbar.css';
+@import '-header.css';
+@import '-course.css';
+@import '-aboutus.css';
+@import '-teacher.css';
+@import '-stat.css';
+@import '-topic.css';
+@import '-faq.css';
+@import '-footer.css';
+
+@font-face{
+    font-family: rubic;
+    src: url(../font/Rubik-Italic-VariableFont_wght.ttf),
+    url(../font/Rubik-VariableFont_wght.ttf)  ;
+    font-weight: 700;
+    font-style: normal;
+}
+
+

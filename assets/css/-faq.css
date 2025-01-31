@@ -1,0 +1,93 @@
+.faq-section-bg{
+    background-image: url(/assets/img/bgb1.jpg);
+    min-height: 500px;
+    background-size: cover;
+}
+.subject-title span::before{
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: #00BFA5;
+    position: absolute;
+    top: 7px;
+    right: -47px;
+}
+.subject-title span::after{
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: #00BFA5;
+    position: absolute;
+    top: 8px;
+    right: 136px;
+}
+.faq-left-side{
+    margin-top: 15%;
+}
+.faq-section-wrapper .faq-left-side{
+    box-shadow: 0px 0px 20px 13px #00000016;
+    height: 300px;
+    background-color: #efefef;
+    padding: 40px;
+}
+.faq-section-wrapper .faq-left-side h6{
+    font-size: 16px;
+    direction: rtl;
+}
+.faq-section-wrapper .faq-left-side h6 i{
+    margin: 10px;
+    font-size: 24px;
+    vertical-align: -3px;
+    color: #00BFA5;
+}
+.faq-section-wrapper .faq-left-side p{  
+    padding-left: 43px;
+    color: #808080;
+    font-size: .8rem;
+}
+.faq-section-wrapper .faq-right-side{
+    margin-top: 15%;
+}
+.faq-section-wrapper .faq-right-side .tabs{
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 13px #00000029;
+}
+.faq-section-wrapper .faq-right-side .tab{
+    color: #000000;
+    overflow: hidden;
+}
+.faq-section-wrapper .faq-right-side .tab-label{
+    padding: 12px;
+    background-color: #00bfa6ce;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    transition: all.4s ease;
+}
+.faq-section-wrapper .faq-right-side .tab-label:hover{
+    background-color: #00bfa6ab;
+}
+.faq-section-wrapper .faq-right-side .tab-label:after{
+    content: '\276f';
+    text-align: center;
+    transition: all .4s;
+    float: right;
+}
+.faq-section-wrapper .faq-right-side .tab-content{
+    height: 0;
+    transition: all .3s ease-in;
+    font-size: .9rem;
+    padding-left: 10px;
+    background-color: #efefef;
+}
+.faq-section-wrapper .faq-right-side input:checked ~ .tab-content{
+    height: 50px;
+    padding-top: 13px;
+}
+.faq-section-wrapper .faq-right-side input:checked + .tab-label:after{
+    transform: rotate(90deg);
+}
+.faq-section-wrapper .faq-right-side input{
+    display: none;    
+}

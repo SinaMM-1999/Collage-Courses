@@ -1,0 +1,74 @@
+/* start header section styles */
+.img-header{
+    max-height: 90vh;
+    
+}
+.overlay{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 90vh;
+}
+.overlay-2{
+    top: 300px;
+    left: 40px;
+    max-width: 470px;
+    color: #00BFA5;
+}
+.overlay-2 h1{
+    font-size: 18px;
+}
+.header-title{
+    color: #00BFA5;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+h1{
+    font-size: 42px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 75px;
+    color: #00BFA5;
+}
+.header-title a{
+    color: #00BFA5;
+    border: 1px solid #00BFA5;
+    border-radius: 8px;
+    padding: 1px 8px;
+    /* background-color: orange; */
+    /* box-shadow: 0 0 20px 0px orange; */
+}
+.header-title a:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    background-color: #00BFA5;
+    color: black;
+}
+@media screen and (max-width:1200px){
+    .header-title{
+        width: 100%;
+        margin: 0px;
+        /* background-color: #fff; */
+        color: black;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .overlay, .overlay-2,.img-header{
+        min-height: 100%;
+    }
+}
+@media screen and (max-width:678px){
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .header-title a{
+        font-size: 10px;
+    }
+    .overlay-2{
+        position: absolute;
+        top: 80%;
+        left: 20px;
+    }
+}

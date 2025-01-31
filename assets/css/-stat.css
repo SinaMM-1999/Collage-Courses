@@ -1,0 +1,24 @@
+/* start stat section styles */
+.stat-section-wrapper{
+    background-color: #00BFA5;
+    min-height: 250px;
+}
+.stat-section-wrapper i{
+    font-size: 50px;
+    margin-top: 40px;
+    transition: .3s all ease-in;
+}
+.stat-section-wrapper i:hover{
+font-size: 70px;
+color: rgb(255, 255, 255);
+transform: rotate(360deg);
+}
+.stat-section-wrapper .count{
+    font-size: 20px;
+    color: white;
+    margin: 30px;
+}
+.stat-section-wrapper .count-title{
+    font-size: 16px;
+
+}
